@@ -1,0 +1,9 @@
+{
+  "package_name": "vesc_msgs",
+  "non_idl_tuples": [
+    "/home/samet/hallo/src/vesc/vesc_msgs:msg/VescState.msg",
+    "/home/samet/hallo/src/vesc/vesc_msgs:msg/VescStateStamped.msg",
+    "/home/samet/hallo/src/vesc/vesc_msgs:msg/VescImu.msg",
+    "/home/samet/hallo/src/vesc/vesc_msgs:msg/VescImuStamped.msg"
+  ]
+}

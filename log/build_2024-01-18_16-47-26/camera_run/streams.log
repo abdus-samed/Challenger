@@ -1,0 +1,63 @@
+[1.161s] Invoking command in '/home/samet/hallo/src/camera_run': PYTHONPATH=/home/samet/hallo/build/camera_run/prefix_override:/home/samet/hallo/install/camera_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_run build --build-base /home/samet/hallo/build/camera_run/build install --record /home/samet/hallo/build/camera_run/install.log --single-version-externally-managed
+[1.405s] running egg_info
+[1.423s] writing ../../build/camera_run/camera_run.egg-info/PKG-INFO
+[1.424s] writing dependency_links to ../../build/camera_run/camera_run.egg-info/dependency_links.txt
+[1.424s] writing entry points to ../../build/camera_run/camera_run.egg-info/entry_points.txt
+[1.424s] writing requirements to ../../build/camera_run/camera_run.egg-info/requires.txt
+[1.424s] writing top-level names to ../../build/camera_run/camera_run.egg-info/top_level.txt
+[1.464s] reading manifest file '../../build/camera_run/camera_run.egg-info/SOURCES.txt'
+[1.465s] writing manifest file '../../build/camera_run/camera_run.egg-info/SOURCES.txt'
+[1.465s] running build
+[1.465s] running build_py
+[1.466s] copying camera_run/intel_lane.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.466s] copying camera_run/intel_pub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.466s] copying camera_run/lane_recognition.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.466s] copying camera_run/steering.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.466s] copying camera_run/ackermann_to_vesc.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.466s] copying camera_run/bot.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.467s] copying camera_run/lane_follower.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.467s] copying camera_run/LaneDetection_realsense.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.467s] copying camera_run/slope_sub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.467s] copying camera_run/slope_node.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.467s] copying camera_run/intel_lane_sub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.468s] copying camera_run/intel_sub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.468s] copying camera_run/LaneDetection.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.468s] copying camera_run/__init__.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run
+[1.469s] running install
+[1.469s] /home/samet/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.469s] !!
+[1.469s] 
+[1.469s]         ********************************************************************************
+[1.469s]         Please avoid running ``setup.py`` directly.
+[1.469s]         Instead, use pypa/build, pypa/installer or other
+[1.470s]         standards-based tools.
+[1.470s] 
+[1.470s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.470s]         ********************************************************************************
+[1.470s] 
+[1.470s] !!
+[1.470s]   self.initialize_options()
+[1.475s] running install_lib
+[1.494s] copying /home/samet/hallo/build/camera_run/build/lib/camera_run/LaneDetection_realsense.py -> /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run
+[1.495s] byte-compiling /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run/LaneDetection_realsense.py to LaneDetection_realsense.cpython-310.pyc
+[1.498s] running install_data
+[1.516s] copying resource/camera_run -> /home/samet/hallo/install/camera_run/share/ament_index/resource_index/packages
+[1.517s] copying package.xml -> /home/samet/hallo/install/camera_run/share/camera_run
+[1.517s] running install_egg_info
+[1.537s] removing '/home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run-0.0.0-py3.10.egg-info' (and everything under it)
+[1.537s] Copying ../../build/camera_run/camera_run.egg-info to /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run-0.0.0-py3.10.egg-info
+[1.538s] running install_scripts
+[1.720s] Installing ackermann_to_vesc script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.720s] Installing bot script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.720s] Installing detection script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.720s] Installing detection_node script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.720s] Installing follower script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing intel_lane script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing intel_lane_sub script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing intel_pub script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing intel_sub script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing slope_node script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing slope_sub script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.721s] Installing steering script to /home/samet/hallo/install/camera_run/lib/camera_run
+[1.722s] writing list of installed files to '/home/samet/hallo/build/camera_run/install.log'
+[1.749s] Invoked command in '/home/samet/hallo/src/camera_run' returned '0': PYTHONPATH=/home/samet/hallo/build/camera_run/prefix_override:/home/samet/hallo/install/camera_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_run build --build-base /home/samet/hallo/build/camera_run/build install --record /home/samet/hallo/build/camera_run/install.log --single-version-externally-managed

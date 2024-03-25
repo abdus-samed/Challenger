@@ -1,0 +1,797 @@
+[1.180s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.180s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2d0bd4f100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2d0bd4ed40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2d0bd4ed40>>)
+[1.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.244s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/samet/hallo'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.259s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extensions ['ignore', 'ignore_ament_install']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extension 'colcon_pkg'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_run) by extension 'ros'
+[1.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_run' with type 'ros.ament_python' and name 'camera_run'
+[1.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extensions ['ignore', 'ignore_ament_install']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'ignore'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'ignore_ament_install'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extensions ['colcon_pkg']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'colcon_pkg'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extensions ['colcon_meta']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'colcon_meta'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extensions ['ros']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'ros'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extensions ['cmake', 'python']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'cmake'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'python'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extensions ['python_setup_py']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/pyrealsense2) by extension 'python_setup_py'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extension 'ignore'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extension 'ignore_ament_install'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extensions ['colcon_pkg']
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extension 'colcon_pkg'
+[1.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extensions ['colcon_meta']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extension 'colcon_meta'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extensions ['ros']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_interfaces) by extension 'ros'
+[1.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/team_interfaces' with type 'ros.ament_cmake' and name 'team_interfaces'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['ignore', 'ignore_ament_install']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ignore'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ignore_ament_install'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['colcon_pkg']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'colcon_pkg'
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['colcon_meta']
+[1.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'colcon_meta'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['ros']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'ros'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['cmake', 'python']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'cmake'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'python'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extensions ['python_setup_py']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers) by extension 'python_setup_py'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['ignore', 'ignore_ament_install']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ignore'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ignore_ament_install'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['colcon_pkg']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'colcon_pkg'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['colcon_meta']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'colcon_meta'
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extensions ['ros']
+[1.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/asio_cmake_module) by extension 'ros'
+[1.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/asio_cmake_module' with type 'ros.ament_cmake' and name 'asio_cmake_module'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['ignore', 'ignore_ament_install']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ignore'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ignore_ament_install'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['colcon_pkg']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'colcon_pkg'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['colcon_meta']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'colcon_meta'
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extensions ['ros']
+[1.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/io_context) by extension 'ros'
+[1.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/io_context' with type 'ros.ament_cmake' and name 'io_context'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ignore'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ignore_ament_install'
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['colcon_pkg']
+[1.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'colcon_pkg'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['colcon_meta']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'colcon_meta'
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extensions ['ros']
+[1.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/serial_driver) by extension 'ros'
+[1.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/serial_driver' with type 'ros.ament_cmake' and name 'serial_driver'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ignore'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ignore_ament_install'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['colcon_pkg']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'colcon_pkg'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['colcon_meta']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'colcon_meta'
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extensions ['ros']
+[1.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/transport_drivers/udp_driver) by extension 'ros'
+[1.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/transport_drivers/udp_driver' with type 'ros.ament_cmake' and name 'udp_driver'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ignore', 'ignore_ament_install']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ignore_ament_install'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_pkg']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_pkg'
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['colcon_meta']
+[1.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'colcon_meta'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['ros']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'ros'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['cmake', 'python']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'cmake'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extensions ['python_setup_py']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc) by extension 'python_setup_py'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ignore', 'ignore_ament_install']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ignore_ament_install'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_pkg']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_pkg'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['colcon_meta']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'colcon_meta'
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extensions ['ros']
+[1.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc) by extension 'ros'
+[1.273s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc' with type 'ros.ament_cmake' and name 'vesc'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['ignore', 'ignore_ament_install']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ignore'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ignore_ament_install'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['colcon_pkg']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'colcon_pkg'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['colcon_meta']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'colcon_meta'
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extensions ['ros']
+[1.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_ackermann) by extension 'ros'
+[1.274s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_ackermann' with type 'ros.ament_cmake' and name 'vesc_ackermann'
+[1.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ignore_ament_install'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_pkg']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_pkg'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['colcon_meta']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'colcon_meta'
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extensions ['ros']
+[1.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_driver) by extension 'ros'
+[1.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_driver' with type 'ros.ament_cmake' and name 'vesc_driver'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ignore_ament_install'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_pkg']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_pkg'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['colcon_meta']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'colcon_meta'
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extensions ['ros']
+[1.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/vesc/vesc_msgs) by extension 'ros'
+[1.277s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vesc/vesc_msgs' with type 'ros.ament_cmake' and name 'vesc_msgs'
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.277s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.389s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.431s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/samet/hallo/install
+[1.456s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/humble
+[1.457s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_args' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_cache' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_clean_first' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'cmake_force_configure' from command line to 'False'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'ament_cmake_args' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_cmake_args' from command line to 'None'
+[1.565s] Level 5:colcon.colcon_core.verb:set package 'asio_cmake_module' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.565s] DEBUG:colcon.colcon_core.verb:Building package 'asio_cmake_module' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/asio_cmake_module', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/asio_cmake_module', 'merge_install': False, 'path': '/home/samet/hallo/src/transport_drivers/asio_cmake_module', 'symlink_install': False, 'test_result_base': None}
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'cmake_target' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'cmake_clean_cache' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'cmake_clean_first' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'cmake_force_configure' from command line to 'False'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'ament_cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'catkin_cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'camera_run' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.589s] DEBUG:colcon.colcon_core.verb:Building package 'camera_run' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/camera_run', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/camera_run', 'merge_install': False, 'path': '/home/samet/hallo/src/camera_run', 'symlink_install': False, 'test_result_base': None}
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'team_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.611s] DEBUG:colcon.colcon_core.verb:Building package 'team_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/team_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/team_interfaces', 'merge_install': False, 'path': '/home/samet/hallo/src/team_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_args' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target' from command line to 'None'
+[1.631s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'vesc_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.632s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/vesc_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/vesc_msgs', 'merge_install': False, 'path': '/home/samet/hallo/src/vesc/vesc_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_cache' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_clean_first' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'cmake_force_configure' from command line to 'False'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'ament_cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_cmake_args' from command line to 'None'
+[1.651s] Level 5:colcon.colcon_core.verb:set package 'io_context' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.651s] DEBUG:colcon.colcon_core.verb:Building package 'io_context' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/io_context', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/io_context', 'merge_install': False, 'path': '/home/samet/hallo/src/transport_drivers/io_context', 'symlink_install': False, 'test_result_base': None}
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_args' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_cache' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_clean_first' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'cmake_force_configure' from command line to 'False'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'ament_cmake_args' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_cmake_args' from command line to 'None'
+[1.670s] Level 5:colcon.colcon_core.verb:set package 'vesc_ackermann' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.670s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_ackermann' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/vesc_ackermann', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/vesc_ackermann', 'merge_install': False, 'path': '/home/samet/hallo/src/vesc/vesc_ackermann', 'symlink_install': False, 'test_result_base': None}
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_args' from command line to 'None'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target' from command line to 'None'
+[1.689s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.690s] Level 5:colcon.colcon_core.verb:set package 'serial_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.690s] DEBUG:colcon.colcon_core.verb:Building package 'serial_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/serial_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/serial_driver', 'merge_install': False, 'path': '/home/samet/hallo/src/transport_drivers/serial_driver', 'symlink_install': False, 'test_result_base': None}
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_args' from command line to 'None'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target' from command line to 'None'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.708s] Level 5:colcon.colcon_core.verb:set package 'udp_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.708s] DEBUG:colcon.colcon_core.verb:Building package 'udp_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/udp_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/udp_driver', 'merge_install': False, 'path': '/home/samet/hallo/src/transport_drivers/udp_driver', 'symlink_install': False, 'test_result_base': None}
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_args' from command line to 'None'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target' from command line to 'None'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.726s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.727s] Level 5:colcon.colcon_core.verb:set package 'vesc_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.727s] DEBUG:colcon.colcon_core.verb:Building package 'vesc_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/vesc_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/vesc_driver', 'merge_install': False, 'path': '/home/samet/hallo/src/vesc/vesc_driver', 'symlink_install': False, 'test_result_base': None}
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_args' from command line to 'None'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target' from command line to 'None'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_clean_first' from command line to 'False'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'cmake_force_configure' from command line to 'False'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'ament_cmake_args' from command line to 'None'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.745s] Level 5:colcon.colcon_core.verb:set package 'vesc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.745s] DEBUG:colcon.colcon_core.verb:Building package 'vesc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/samet/hallo/build/vesc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/samet/hallo/install/vesc', 'merge_install': False, 'path': '/home/samet/hallo/src/vesc/vesc', 'symlink_install': False, 'test_result_base': None}
+[1.764s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.789s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/transport_drivers/asio_cmake_module' with build type 'ament_cmake'
+[1.789s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/transport_drivers/asio_cmake_module'
+[1.815s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.815s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.875s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/vesc/vesc_msgs' with build type 'ament_cmake'
+[1.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/vesc/vesc_msgs'
+[1.894s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.894s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.953s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/samet/hallo/src/camera_run' with build type 'ament_python'
+[1.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_run', 'ament_prefix_path')
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/camera_run/share/camera_run/hook/ament_prefix_path.ps1'
+[1.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/camera_run/share/camera_run/hook/ament_prefix_path.dsv'
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/camera_run/share/camera_run/hook/ament_prefix_path.sh'
+[1.992s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.051s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/team_interfaces' with build type 'ament_cmake'
+[2.051s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/team_interfaces'
+[2.069s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.069s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/asio_cmake_module -- -j8 -l8
+[2.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/vesc_msgs -- -j8 -l8
+[2.420s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/samet/hallo/src/camera_run'
+[2.442s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.442s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/team_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/team_interfaces -- -j8 -l8
+[2.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/asio_cmake_module -- -j8 -l8
+[2.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/asio_cmake_module': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/asio_cmake_module
+[2.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[2.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/asio_cmake_module' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/asio_cmake_module
+[2.621s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module' for CMake module files
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module' for CMake config files
+[2.625s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[2.668s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[2.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/bin'
+[2.670s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/lib/python3.10/site-packages'
+[2.671s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/bin'
+[2.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[2.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[2.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[2.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/vesc_msgs -- -j8 -l8
+[2.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(asio_cmake_module)
+[2.829s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module' for CMake module files
+[2.830s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module' for CMake config files
+[2.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('asio_cmake_module', 'cmake_prefix_path')
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.ps1'
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.dsv'
+[2.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/hook/cmake_prefix_path.sh'
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/bin'
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/lib/pkgconfig/asio_cmake_module.pc'
+[2.862s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/lib/python3.10/site-packages'
+[2.863s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/asio_cmake_module/bin'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.dsv'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.sh'
+[2.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.bash'
+[2.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/asio_cmake_module/share/asio_cmake_module/package.zsh'
+[2.886s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/asio_cmake_module/share/colcon-core/packages/asio_cmake_module)
+[2.887s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/transport_drivers/io_context' with build type 'ament_cmake'
+[2.887s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/transport_drivers/io_context'
+[2.915s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.915s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/vesc_msgs
+[3.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/io_context': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/io_context -- -j8 -l8
+[3.126s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[3.133s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/vesc_msgs
+[3.163s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs' for CMake module files
+[3.164s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs' for CMake config files
+[3.164s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[3.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[3.192s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/lib'
+[3.192s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/bin'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/lib/python3.10/site-packages'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/bin'
+[3.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[3.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[3.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.sh'
+[3.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.bash'
+[3.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[3.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[3.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/io_context -- -j8 -l8
+[3.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/team_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/team_interfaces -- -j8 -l8
+[3.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/io_context': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/io_context
+[3.312s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[3.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/io_context
+[3.350s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context' for CMake module files
+[3.350s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context' for CMake config files
+[3.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[3.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[3.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[3.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/lib'
+[3.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[3.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[3.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/bin'
+[3.402s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/lib/pkgconfig/io_context.pc'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/lib/python3.10/site-packages'
+[3.403s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/bin'
+[3.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.ps1'
+[3.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/io_context/share/io_context/package.dsv'
+[3.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.sh'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.bash'
+[3.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.zsh'
+[3.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/io_context/share/colcon-core/packages/io_context)
+[3.481s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_msgs)
+[3.507s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs' for CMake module files
+[3.508s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs' for CMake config files
+[3.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'cmake_prefix_path')
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.ps1'
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.dsv'
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/cmake_prefix_path.sh'
+[3.534s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/lib'
+[3.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_msgs', 'ld_library_path_lib')
+[3.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.ps1'
+[3.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.dsv'
+[3.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/hook/ld_library_path_lib.sh'
+[3.558s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/bin'
+[3.558s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/lib/pkgconfig/vesc_msgs.pc'
+[3.558s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/lib/python3.10/site-packages'
+[3.558s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_msgs/bin'
+[3.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.ps1'
+[3.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.dsv'
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.sh'
+[3.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.bash'
+[3.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_msgs/share/vesc_msgs/package.zsh'
+[3.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc_msgs/share/colcon-core/packages/vesc_msgs)
+[3.583s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/vesc/vesc_ackermann' with build type 'ament_cmake'
+[3.583s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/vesc/vesc_ackermann'
+[3.612s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.612s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.713s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(io_context)
+[3.732s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context' for CMake module files
+[3.733s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context' for CMake config files
+[3.733s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'cmake_prefix_path')
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/cmake_prefix_path.ps1'
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/io_context/share/io_context/hook/cmake_prefix_path.dsv'
+[3.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/cmake_prefix_path.sh'
+[3.753s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/lib'
+[3.753s] Level 1:colcon.colcon_core.shell:create_environment_hook('io_context', 'ld_library_path_lib')
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/ld_library_path_lib.ps1'
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/io_context/share/io_context/hook/ld_library_path_lib.dsv'
+[3.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/io_context/share/io_context/hook/ld_library_path_lib.sh'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/bin'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/lib/pkgconfig/io_context.pc'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/lib/python3.10/site-packages'
+[3.774s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/io_context/bin'
+[3.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.ps1'
+[3.793s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/io_context/share/io_context/package.dsv'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.sh'
+[3.794s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.bash'
+[3.795s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/io_context/share/io_context/package.zsh'
+[3.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/io_context/share/colcon-core/packages/io_context)
+[3.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/team_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/team_interfaces
+[3.801s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/transport_drivers/serial_driver' with build type 'ament_cmake'
+[3.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/transport_drivers/serial_driver'
+[3.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/src/camera_run': PYTHONPATH=/home/samet/hallo/build/camera_run/prefix_override:/home/samet/hallo/install/camera_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_run build --build-base /home/samet/hallo/build/camera_run/build install --record /home/samet/hallo/build/camera_run/install.log --single-version-externally-managed
+[3.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.901s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/transport_drivers/udp_driver' with build type 'ament_cmake'
+[3.901s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/transport_drivers/udp_driver'
+[3.938s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.938s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc_ackermann -- -j8 -l8
+[4.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/serial_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/serial_driver -- -j8 -l8
+[4.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/udp_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/udp_driver -- -j8 -l8
+[4.090s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(team_interfaces)
+[4.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/team_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/team_interfaces
+[4.136s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces' for CMake module files
+[4.137s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces' for CMake config files
+[4.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('team_interfaces', 'cmake_prefix_path')
+[4.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/cmake_prefix_path.ps1'
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/cmake_prefix_path.dsv'
+[4.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/cmake_prefix_path.sh'
+[4.198s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/lib'
+[4.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('team_interfaces', 'ld_library_path_lib')
+[4.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/ld_library_path_lib.ps1'
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/ld_library_path_lib.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/ld_library_path_lib.sh'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/bin'
+[4.256s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/lib/pkgconfig/team_interfaces.pc'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/lib/python3.10/site-packages'
+[4.257s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/bin'
+[4.287s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.ps1'
+[4.288s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.dsv'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.sh'
+[4.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.bash'
+[4.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.zsh'
+[4.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/team_interfaces/share/colcon-core/packages/team_interfaces)
+[4.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc_ackermann -- -j8 -l8
+[4.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/serial_driver -- -j8 -l8
+[4.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc_ackermann
+[4.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/udp_driver -- -j8 -l8
+[4.448s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[4.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc_ackermann
+[4.491s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann' for CMake module files
+[4.493s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann' for CMake config files
+[4.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[4.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[4.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[4.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[4.533s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/lib'
+[4.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[4.571s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[4.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[4.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[4.573s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/bin'
+[4.573s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[4.574s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/lib/python3.10/site-packages'
+[4.574s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/bin'
+[4.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[4.612s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[4.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[4.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[4.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[4.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[4.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(team_interfaces)
+[4.692s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces' for CMake module files
+[4.693s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces' for CMake config files
+[4.693s] Level 1:colcon.colcon_core.shell:create_environment_hook('team_interfaces', 'cmake_prefix_path')
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/cmake_prefix_path.ps1'
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/cmake_prefix_path.dsv'
+[4.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/cmake_prefix_path.sh'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/lib'
+[4.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('team_interfaces', 'ld_library_path_lib')
+[4.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/ld_library_path_lib.ps1'
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/ld_library_path_lib.dsv'
+[4.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/team_interfaces/share/team_interfaces/hook/ld_library_path_lib.sh'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/bin'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/lib/pkgconfig/team_interfaces.pc'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/lib/python3.10/site-packages'
+[4.759s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/team_interfaces/bin'
+[4.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.ps1'
+[4.782s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.dsv'
+[4.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.sh'
+[4.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.bash'
+[4.785s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/team_interfaces/share/team_interfaces/package.zsh'
+[4.786s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/team_interfaces/share/colcon-core/packages/team_interfaces)
+[4.789s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/serial_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/serial_driver
+[4.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/udp_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/udp_driver
+[4.840s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_ackermann)
+[4.863s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann' for CMake module files
+[4.863s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann' for CMake config files
+[4.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'cmake_prefix_path')
+[4.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.ps1'
+[4.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.dsv'
+[4.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/cmake_prefix_path.sh'
+[4.884s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/lib'
+[4.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_ackermann', 'ld_library_path_lib')
+[4.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.ps1'
+[4.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.dsv'
+[4.904s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/hook/ld_library_path_lib.sh'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/bin'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/lib/pkgconfig/vesc_ackermann.pc'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/lib/python3.10/site-packages'
+[4.905s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_ackermann/bin'
+[4.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.ps1'
+[4.926s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.dsv'
+[4.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.sh'
+[4.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.bash'
+[4.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.zsh'
+[4.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc_ackermann/share/colcon-core/packages/vesc_ackermann)
+[4.929s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[4.931s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/serial_driver
+[4.956s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver' for CMake module files
+[4.957s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver' for CMake config files
+[4.958s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[4.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[4.983s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/lib'
+[4.983s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[5.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[5.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[5.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[5.003s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/bin'
+[5.003s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[5.004s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/lib/python3.10/site-packages'
+[5.004s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/bin'
+[5.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.ps1'
+[5.025s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/serial_driver/share/serial_driver/package.dsv'
+[5.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.sh'
+[5.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.bash'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.zsh'
+[5.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/serial_driver/share/colcon-core/packages/serial_driver)
+[5.029s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[5.029s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/udp_driver
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver' for CMake module files
+[5.054s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver' for CMake config files
+[5.054s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[5.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[5.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[5.082s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/lib'
+[5.082s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[5.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[5.109s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[5.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/bin'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[5.110s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/lib/python3.10/site-packages'
+[5.111s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/bin'
+[5.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.ps1'
+[5.145s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/udp_driver/share/udp_driver/package.dsv'
+[5.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.sh'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.bash'
+[5.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.zsh'
+[5.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/udp_driver/share/colcon-core/packages/udp_driver)
+[5.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/src/camera_run' returned '0': PYTHONPATH=/home/samet/hallo/build/camera_run/prefix_override:/home/samet/hallo/install/camera_run/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/camera_run build --build-base /home/samet/hallo/build/camera_run/build install --record /home/samet/hallo/build/camera_run/install.log --single-version-externally-managed
+[5.185s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run' for CMake module files
+[5.186s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run' for CMake config files
+[5.187s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run/lib'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run/bin'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run/lib/pkgconfig/camera_run.pc'
+[5.188s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run/lib/python3.10/site-packages'
+[5.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_run', 'pythonpath')
+[5.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/camera_run/share/camera_run/hook/pythonpath.ps1'
+[5.224s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/camera_run/share/camera_run/hook/pythonpath.dsv'
+[5.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/camera_run/share/camera_run/hook/pythonpath.sh'
+[5.225s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/camera_run/bin'
+[5.225s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_run)
+[5.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/camera_run/share/camera_run/package.ps1'
+[5.257s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/camera_run/share/camera_run/package.dsv'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/camera_run/share/camera_run/package.sh'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/camera_run/share/camera_run/package.bash'
+[5.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/camera_run/share/camera_run/package.zsh'
+[5.259s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/camera_run/share/colcon-core/packages/camera_run)
+[5.286s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial_driver)
+[5.306s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver' for CMake module files
+[5.307s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver' for CMake config files
+[5.307s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'cmake_prefix_path')
+[5.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.ps1'
+[5.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.dsv'
+[5.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/cmake_prefix_path.sh'
+[5.332s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/lib'
+[5.332s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial_driver', 'ld_library_path_lib')
+[5.357s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.ps1'
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.dsv'
+[5.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/serial_driver/share/serial_driver/hook/ld_library_path_lib.sh'
+[5.359s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/bin'
+[5.359s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/lib/pkgconfig/serial_driver.pc'
+[5.360s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/lib/python3.10/site-packages'
+[5.360s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/serial_driver/bin'
+[5.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.ps1'
+[5.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/serial_driver/share/serial_driver/package.dsv'
+[5.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.sh'
+[5.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.bash'
+[5.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/serial_driver/share/serial_driver/package.zsh'
+[5.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/serial_driver/share/colcon-core/packages/serial_driver)
+[5.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(udp_driver)
+[5.437s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver' for CMake module files
+[5.437s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver' for CMake config files
+[5.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'cmake_prefix_path')
+[5.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.ps1'
+[5.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.dsv'
+[5.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/cmake_prefix_path.sh'
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/lib'
+[5.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('udp_driver', 'ld_library_path_lib')
+[5.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.ps1'
+[5.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.dsv'
+[5.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/udp_driver/share/udp_driver/hook/ld_library_path_lib.sh'
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/bin'
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/lib/pkgconfig/udp_driver.pc'
+[5.489s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/lib/python3.10/site-packages'
+[5.490s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/udp_driver/bin'
+[5.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.ps1'
+[5.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/udp_driver/share/udp_driver/package.dsv'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.sh'
+[5.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.bash'
+[5.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/udp_driver/share/udp_driver/package.zsh'
+[5.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/udp_driver/share/colcon-core/packages/udp_driver)
+[5.515s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/vesc/vesc_driver' with build type 'ament_cmake'
+[5.515s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/vesc/vesc_driver'
+[5.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.668s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc_driver -- -j8 -l8
+[5.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc_driver -- -j8 -l8
+[5.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc_driver
+[5.865s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[5.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc_driver
+[5.897s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver' for CMake module files
+[5.898s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver' for CMake config files
+[5.898s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[5.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[5.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[5.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[5.919s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/lib'
+[5.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[5.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[5.945s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[5.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[5.945s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/bin'
+[5.945s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[5.946s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/lib/python3.10/site-packages'
+[5.946s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/bin'
+[5.967s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.ps1'
+[5.967s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.dsv'
+[5.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.sh'
+[5.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.bash'
+[5.968s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.zsh'
+[5.969s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[6.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc_driver)
+[6.067s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver' for CMake module files
+[6.067s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver' for CMake config files
+[6.067s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'cmake_prefix_path')
+[6.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.ps1'
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.dsv'
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/cmake_prefix_path.sh'
+[6.089s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/lib'
+[6.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc_driver', 'ld_library_path_lib')
+[6.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.ps1'
+[6.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.dsv'
+[6.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc_driver/share/vesc_driver/hook/ld_library_path_lib.sh'
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/bin'
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/lib/pkgconfig/vesc_driver.pc'
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/lib/python3.10/site-packages'
+[6.110s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc_driver/bin'
+[6.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.ps1'
+[6.131s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.dsv'
+[6.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.sh'
+[6.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.bash'
+[6.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc_driver/share/vesc_driver/package.zsh'
+[6.133s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc_driver/share/colcon-core/packages/vesc_driver)
+[6.133s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/samet/hallo/src/vesc/vesc' with build type 'ament_cmake'
+[6.134s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/samet/hallo/src/vesc/vesc'
+[6.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc -- -j8 -l8
+[6.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc -- -j8 -l8
+[6.322s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/samet/hallo/build/vesc': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc
+[6.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[6.336s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/samet/hallo/build/vesc' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/io_context:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc
+[6.366s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc' for CMake module files
+[6.367s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc' for CMake config files
+[6.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[6.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[6.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[6.394s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/bin'
+[6.394s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/lib/pkgconfig/vesc.pc'
+[6.394s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/lib/python3.10/site-packages'
+[6.395s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/bin'
+[6.418s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.ps1'
+[6.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc/share/vesc/package.dsv'
+[6.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.sh'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.bash'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.zsh'
+[6.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc/share/colcon-core/packages/vesc)
+[6.475s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vesc)
+[6.497s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc' for CMake module files
+[6.497s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc' for CMake config files
+[6.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('vesc', 'cmake_prefix_path')
+[6.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc/share/vesc/hook/cmake_prefix_path.ps1'
+[6.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/samet/hallo/install/vesc/share/vesc/hook/cmake_prefix_path.dsv'
+[6.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/samet/hallo/install/vesc/share/vesc/hook/cmake_prefix_path.sh'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/bin'
+[6.554s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/lib/pkgconfig/vesc.pc'
+[6.555s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/lib/python3.10/site-packages'
+[6.555s] Level 1:colcon.colcon_core.environment:checking '/home/samet/hallo/install/vesc/bin'
+[6.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.ps1'
+[6.596s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/samet/hallo/install/vesc/share/vesc/package.dsv'
+[6.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.sh'
+[6.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.bash'
+[6.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/samet/hallo/install/vesc/share/vesc/package.zsh'
+[6.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/samet/hallo/install/vesc/share/colcon-core/packages/vesc)
+[6.599s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.600s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.600s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.645s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.646s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.646s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.659s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samet/hallo/install/local_setup.ps1'
+[6.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samet/hallo/install/_local_setup_util_ps1.py'
+[6.682s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samet/hallo/install/setup.ps1'
+[6.702s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samet/hallo/install/local_setup.sh'
+[6.703s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/samet/hallo/install/_local_setup_util_sh.py'
+[6.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samet/hallo/install/setup.sh'
+[6.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samet/hallo/install/local_setup.bash'
+[6.726s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samet/hallo/install/setup.bash'
+[6.747s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/samet/hallo/install/local_setup.zsh'
+[6.748s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/samet/hallo/install/setup.zsh'

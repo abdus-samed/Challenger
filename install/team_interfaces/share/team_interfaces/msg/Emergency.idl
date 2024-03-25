@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from team_interfaces/msg/Emergency.msg
+// generated code does not contain a copyright notice
+
+
+module team_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message for emergency stop")
+    struct Emergency {
+      boolean emergency_stop;
+
+      boolean phase_change;
+    };
+  };
+};

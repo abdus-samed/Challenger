@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from team_interfaces/msg/Lane.msg
+// generated code does not contain a copyright notice
+
+
+module team_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Message for detected lane lines (currently dashed_line_detected is a placeholder)")
+    struct Lane {
+      @verbatim (language="comment", text=
+        "Bool for detected lane")
+      boolean right_lane_detected;
+
+      boolean left_lane_detected;
+
+      boolean dashed_line_detected;
+
+      @verbatim (language="comment", text=
+        " Mean curvature from left and right lane lines (place holder)" "\n"
+        "float32 curvature_radius" "\n"
+        " Offset to center point")
+      float center_offset;
+
+      @verbatim (language="comment", text=
+        "Heading angle")
+      float heading_angle;
+
+      @verbatim (language="comment", text=
+        "Array of detected lane line points")
+      sequence<float> right_lane_x_points;
+
+      sequence<float> right_lane_y_points;
+
+      sequence<float> left_lane_x_points;
+
+      sequence<float> left_lane_y_points;
+    };
+  };
+};

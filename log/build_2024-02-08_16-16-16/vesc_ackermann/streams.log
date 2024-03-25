@@ -1,0 +1,39 @@
+[0.593s] Invoking command in '/home/samet/hallo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc_ackermann -- -j8 -l8
+[0.702s] [ 28%] Built target ackermann_to_vesc_node
+[0.703s] [ 57%] Built target vesc_to_odom_node
+[0.706s] [100%] Built target vesc_ackermann
+[0.796s] Invoked command in '/home/samet/hallo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/vesc_ackermann -- -j8 -l8
+[0.960s] Invoking command in '/home/samet/hallo/build/vesc_ackermann': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc_ackermann
+[0.981s] -- Install configuration: ""
+[0.987s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/lib/vesc_ackermann/ackermann_to_vesc_node
+[0.988s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/lib/vesc_ackermann/vesc_to_odom_node
+[0.988s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/include
+[0.988s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/include/vesc_ackermann
+[0.988s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/include/vesc_ackermann/ackermann_to_vesc.hpp
+[0.988s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/include/vesc_ackermann/vesc_to_odom.hpp
+[0.989s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.sh
+[0.989s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/environment/library_path.dsv
+[0.989s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/lib/libvesc_ackermann.so
+[0.989s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/launch
+[0.989s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/launch/ackermann_to_vesc_node.launch.py
+[0.989s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/launch/vesc_to_odom_node.launch.py
+[1.013s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/ament_index/resource_index/package_run_dependencies/vesc_ackermann
+[1.014s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/ament_index/resource_index/parent_prefix_path/vesc_ackermann
+[1.014s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.sh
+[1.014s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/environment/ament_prefix_path.dsv
+[1.014s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/environment/path.sh
+[1.014s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/environment/path.dsv
+[1.015s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/local_setup.bash
+[1.015s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/local_setup.sh
+[1.015s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/local_setup.zsh
+[1.015s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/local_setup.dsv
+[1.015s] -- Installing: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.dsv
+[1.015s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/ament_index/resource_index/packages/vesc_ackermann
+[1.015s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/ament_index/resource_index/rclcpp_components/vesc_ackermann
+[1.016s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.016s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.016s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/cmake/ament_cmake_export_libraries-extras.cmake
+[1.016s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig.cmake
+[1.017s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/cmake/vesc_ackermannConfig-version.cmake
+[1.017s] -- Up-to-date: /home/samet/hallo/install/vesc_ackermann/share/vesc_ackermann/package.xml
+[1.017s] Invoked command in '/home/samet/hallo/build/vesc_ackermann' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/vesc_ackermann

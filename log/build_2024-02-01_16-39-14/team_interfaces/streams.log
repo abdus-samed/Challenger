@@ -1,0 +1,218 @@
+[0.501s] Invoking command in '/home/samet/hallo/build/team_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/team_interfaces -- -j8 -l8
+[0.594s] [  1%] Built target team_interfaces__cpp
+[0.608s] [ 12%] Built target team_interfaces__rosidl_generator_c
+[0.645s] [ 12%] Built target ament_cmake_python_copy_team_interfaces
+[0.675s] [ 23%] Built target team_interfaces__rosidl_typesupport_cpp
+[0.689s] [ 34%] Built target team_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.697s] [ 47%] Built target team_interfaces__rosidl_typesupport_introspection_c
+[0.702s] [ 57%] Built target team_interfaces__rosidl_typesupport_fastrtps_c
+[0.707s] [ 68%] Built target team_interfaces__rosidl_typesupport_introspection_cpp
+[0.742s] [ 79%] Built target team_interfaces__rosidl_typesupport_c
+[0.782s] [ 79%] Built target team_interfaces
+[0.821s] [ 80%] Built target team_interfaces__py
+[0.867s] [ 90%] Built target team_interfaces__rosidl_generator_py
+[0.912s] [ 93%] Built target team_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.914s] [ 96%] Built target team_interfaces__rosidl_typesupport_c__pyext
+[0.918s] [100%] Built target team_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.105s] running egg_info
+[1.133s] writing team_interfaces.egg-info/PKG-INFO
+[1.134s] writing dependency_links to team_interfaces.egg-info/dependency_links.txt
+[1.135s] writing top-level names to team_interfaces.egg-info/top_level.txt
+[1.275s] reading manifest file 'team_interfaces.egg-info/SOURCES.txt'
+[1.277s] writing manifest file 'team_interfaces.egg-info/SOURCES.txt'
+[1.331s] [100%] Built target ament_cmake_python_build_team_interfaces_egg
+[1.424s] Invoked command in '/home/samet/hallo/build/team_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/team_interfaces -- -j8 -l8
+[1.923s] Invoking command in '/home/samet/hallo/build/team_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/team_interfaces
+[2.053s] -- Install configuration: ""
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/ament_index/resource_index/rosidl_interfaces/team_interfaces
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/car.h
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/signs.h
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/trafficlight.h
+[2.056s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__functions.c
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__struct.h
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__type_support.h
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__functions.h
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__functions.h
+[2.057s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__type_support.h
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__functions.h
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__functions.c
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__functions.h
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__type_support.h
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__struct.h
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__functions.c
+[2.058s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__type_support.h
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__struct.h
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__functions.c
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__functions.c
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__type_support.h
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__struct.h
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__struct.h
+[2.059s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__functions.h
+[2.060s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/emergency.h
+[2.060s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/lane.h
+[2.060s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/library_path.sh
+[2.060s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/library_path.dsv
+[2.060s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_generator_c.so
+[2.060s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__rosidl_typesupport_fastrtps_c.h
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__rosidl_typesupport_fastrtps_c.h
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__rosidl_typesupport_fastrtps_c.h
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__rosidl_typesupport_fastrtps_c.h
+[2.061s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__rosidl_typesupport_fastrtps_c.h
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__rosidl_typesupport_introspection_c.h
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__rosidl_typesupport_introspection_c.h
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__rosidl_typesupport_introspection_c.h
+[2.062s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__type_support.c
+[2.063s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__type_support.c
+[2.063s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__type_support.c
+[2.063s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__type_support.c
+[2.063s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__rosidl_typesupport_introspection_c.h
+[2.063s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__rosidl_typesupport_introspection_c.h
+[2.063s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__type_support.c
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_typesupport_introspection_c.so
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_typesupport_c.so
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/car.hpp
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/signs.hpp
+[2.080s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/emergency.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__builder.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__struct.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__struct.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__traits.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__traits.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__builder.hpp
+[2.081s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__struct.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__traits.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__builder.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__struct.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__builder.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__traits.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__traits.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__struct.hpp
+[2.082s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__builder.hpp
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/trafficlight.hpp
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/lane.hpp
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__rosidl_typesupport_fastrtps_cpp.hpp
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__rosidl_typesupport_fastrtps_cpp.hpp
+[2.083s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__rosidl_typesupport_fastrtps_cpp.hpp
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__rosidl_typesupport_fastrtps_cpp.hpp
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__rosidl_typesupport_fastrtps_cpp.hpp
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/dds_fastrtps
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg
+[2.084s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail
+[2.085s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__type_support.cpp
+[2.085s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__rosidl_typesupport_introspection_cpp.hpp
+[2.086s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__type_support.cpp
+[2.086s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__type_support.cpp
+[2.086s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/lane__type_support.cpp
+[2.087s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__type_support.cpp
+[2.087s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/trafficlight__rosidl_typesupport_introspection_cpp.hpp
+[2.088s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/emergency__rosidl_typesupport_introspection_cpp.hpp
+[2.088s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/car__rosidl_typesupport_introspection_cpp.hpp
+[2.088s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/include/team_interfaces/team_interfaces/msg/detail/signs__rosidl_typesupport_introspection_cpp.hpp
+[2.088s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.088s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_typesupport_cpp.so
+[2.088s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/pythonpath.sh
+[2.089s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/pythonpath.dsv
+[2.089s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces-0.0.0-py3.10.egg-info
+[2.089s] -- Installing: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.089s] -- Installing: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.089s] -- Installing: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.089s] -- Installing: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.089s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/team_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_emergency_s.c
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_trafficlight.py
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_lane.py
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_lane_s.c
+[2.090s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_signs_s.c
+[2.091s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_signs.py
+[2.091s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_trafficlight_s.c
+[2.091s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_car_s.c
+[2.092s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/__init__.py
+[2.092s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_car.py
+[2.092s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg/_emergency.py
+[2.092s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/_team_interfaces_s.ep.rosidl_typesupport_c.c
+[2.093s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/_team_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.093s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/_team_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.094s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/__init__.py
+[2.094s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/team_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.094s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/team_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.095s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/libteam_interfaces__rosidl_generator_py.so
+[2.117s] Listing '/home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces'...
+[2.117s] Listing '/home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/msg'...
+[2.126s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/team_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.127s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/team_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.128s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages/team_interfaces/team_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.129s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/lib/libteam_interfaces__rosidl_generator_py.so
+[2.129s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Car.idl
+[2.130s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Lane.idl
+[2.130s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Signs.idl
+[2.131s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Trafficlight.idl
+[2.132s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Emergency.idl
+[2.133s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Car.msg
+[2.134s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Lane.msg
+[2.134s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Signs.msg
+[2.135s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Trafficlight.msg
+[2.136s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/msg/Emergency.msg
+[2.136s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/ament_index/resource_index/package_run_dependencies/team_interfaces
+[2.136s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/ament_index/resource_index/parent_prefix_path/team_interfaces
+[2.137s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/ament_prefix_path.sh
+[2.137s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/ament_prefix_path.dsv
+[2.137s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/path.sh
+[2.137s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/environment/path.dsv
+[2.138s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/local_setup.bash
+[2.138s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/local_setup.sh
+[2.138s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/local_setup.zsh
+[2.139s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/local_setup.dsv
+[2.139s] -- Installing: /home/samet/hallo/install/team_interfaces/share/team_interfaces/package.dsv
+[2.139s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/ament_index/resource_index/packages/team_interfaces
+[2.139s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_generator_cExport.cmake
+[2.140s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.140s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.141s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.141s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.142s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.142s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_cExport.cmake
+[2.142s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.145s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_generator_cppExport.cmake
+[2.145s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.145s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.146s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.146s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.146s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_cppExport.cmake
+[2.146s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.146s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_generator_pyExport.cmake
+[2.147s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/export_team_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.147s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.147s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.147s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.147s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.147s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.148s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.148s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.149s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfacesConfig.cmake
+[2.149s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/cmake/team_interfacesConfig-version.cmake
+[2.149s] -- Up-to-date: /home/samet/hallo/install/team_interfaces/share/team_interfaces/package.xml
+[2.423s] Invoked command in '/home/samet/hallo/build/team_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/team_interfaces

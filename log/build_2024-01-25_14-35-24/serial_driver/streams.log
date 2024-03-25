@@ -1,0 +1,46 @@
+[0.351s] Invoking command in '/home/samet/hallo/build/serial_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/serial_driver -- -j8 -l8
+[0.476s] [ 13%] Built target gtest_main
+[0.482s] [ 26%] Built target gtest
+[0.506s] [ 46%] Built target serial_driver
+[0.511s] [ 60%] Built target serial_bridge
+[0.576s] [ 73%] Built target test_serial_driver
+[0.583s] [ 86%] Built target test_serial_port
+[0.599s] [100%] Built target serial_driver_nodes
+[0.686s] Invoked command in '/home/samet/hallo/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/serial_driver -- -j8 -l8
+[1.046s] Invoking command in '/home/samet/hallo/build/serial_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/serial_driver
+[1.060s] -- Install configuration: ""
+[1.060s] -- Up-to-date: /home/samet/hallo/install/serial_driver/lib/serial_driver/serial_bridge
+[1.061s] -- Up-to-date: /home/samet/hallo/install/serial_driver/include
+[1.061s] -- Up-to-date: /home/samet/hallo/install/serial_driver/include/serial_driver
+[1.061s] -- Up-to-date: /home/samet/hallo/install/serial_driver/include/serial_driver/visibility_control.hpp
+[1.061s] -- Up-to-date: /home/samet/hallo/install/serial_driver/include/serial_driver/serial_port.hpp
+[1.061s] -- Up-to-date: /home/samet/hallo/install/serial_driver/include/serial_driver/serial_driver.hpp
+[1.062s] -- Up-to-date: /home/samet/hallo/install/serial_driver/include/serial_driver/serial_bridge_node.hpp
+[1.062s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/environment/library_path.sh
+[1.062s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/environment/library_path.dsv
+[1.062s] -- Up-to-date: /home/samet/hallo/install/serial_driver/lib/libserial_driver.so
+[1.062s] -- Up-to-date: /home/samet/hallo/install/serial_driver/lib/libserial_driver_nodes.so
+[1.063s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/launch
+[1.063s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/launch/serial_driver_bridge_node.launch.py
+[1.063s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/params
+[1.063s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/params/example.params.yaml
+[1.064s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/ament_index/resource_index/package_run_dependencies/serial_driver
+[1.064s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/ament_index/resource_index/parent_prefix_path/serial_driver
+[1.065s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/environment/ament_prefix_path.sh
+[1.065s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/environment/ament_prefix_path.dsv
+[1.065s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/environment/path.sh
+[1.066s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/environment/path.dsv
+[1.066s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/local_setup.bash
+[1.066s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/local_setup.sh
+[1.067s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/local_setup.zsh
+[1.067s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/local_setup.dsv
+[1.067s] -- Installing: /home/samet/hallo/install/serial_driver/share/serial_driver/package.dsv
+[1.068s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/ament_index/resource_index/packages/serial_driver
+[1.069s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/ament_index/resource_index/rclcpp_components/serial_driver
+[1.070s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.070s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.072s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.072s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/cmake/serial_driverConfig.cmake
+[1.073s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/cmake/serial_driverConfig-version.cmake
+[1.073s] -- Up-to-date: /home/samet/hallo/install/serial_driver/share/serial_driver/package.xml
+[1.077s] Invoked command in '/home/samet/hallo/build/serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/serial_driver

@@ -1,4 +1,14 @@
 [console_scripts]
+ackermann_to_vesc = camera_run.ackermann_to_vesc:main
+bot = camera_run.bot:main
+detection = camera_run.2_new_line:main
+detection_node = camera_run.LaneDetection:main
+follower = camera_run.lane_follower:main
+intel_lane = camera_run.intel_lane:main
+intel_lane_sub = camera_run.intel_lane_sub:main
 intel_pub = camera_run.intel_pub:main
 intel_sub = camera_run.intel_sub:main
-
+slope_node = camera_run.slope_node:main
+slope_sub = camera_run.slope_sub:main
+steering = camera_run.steering:main
+tele = camera_run.teleop:main

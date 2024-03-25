@@ -1,0 +1,38 @@
+[0.152s] Invoking command in '/home/samet/hallo/build/io_context': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/io_context -- -j8 -l8
+[0.321s] [ 22%] Built target gtest_main
+[0.325s] [ 44%] Built target gtest
+[0.348s] [ 77%] Built target io_context
+[0.401s] [100%] Built target test_io_context
+[0.471s] Invoked command in '/home/samet/hallo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --build /home/samet/hallo/build/io_context -- -j8 -l8
+[0.544s] Invoking command in '/home/samet/hallo/build/io_context': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/io_context
+[0.561s] -- Install configuration: ""
+[0.562s] -- Up-to-date: /home/samet/hallo/install/io_context/include
+[0.563s] -- Up-to-date: /home/samet/hallo/install/io_context/include/msg_converters
+[0.563s] -- Up-to-date: /home/samet/hallo/install/io_context/include/msg_converters/udp_msgs.hpp
+[0.564s] -- Up-to-date: /home/samet/hallo/install/io_context/include/msg_converters/std_msgs.hpp
+[0.565s] -- Up-to-date: /home/samet/hallo/install/io_context/include/msg_converters/converters.hpp
+[0.565s] -- Up-to-date: /home/samet/hallo/install/io_context/include/io_context
+[0.566s] -- Up-to-date: /home/samet/hallo/install/io_context/include/io_context/common.hpp
+[0.566s] -- Up-to-date: /home/samet/hallo/install/io_context/include/io_context/io_context.hpp
+[0.566s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/environment/library_path.sh
+[0.566s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/environment/library_path.dsv
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/lib/libio_context.so
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/share/ament_index/resource_index/package_run_dependencies/io_context
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/share/ament_index/resource_index/parent_prefix_path/io_context
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/environment/ament_prefix_path.sh
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/environment/ament_prefix_path.dsv
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/environment/path.sh
+[0.567s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/environment/path.dsv
+[0.568s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/local_setup.bash
+[0.569s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/local_setup.sh
+[0.569s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/local_setup.zsh
+[0.569s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/local_setup.dsv
+[0.569s] -- Installing: /home/samet/hallo/install/io_context/share/io_context/package.dsv
+[0.569s] -- Up-to-date: /home/samet/hallo/install/io_context/share/ament_index/resource_index/packages/io_context
+[0.570s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.570s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.570s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/cmake/ament_cmake_export_libraries-extras.cmake
+[0.570s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/cmake/io_contextConfig.cmake
+[0.571s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/cmake/io_contextConfig-version.cmake
+[0.571s] -- Up-to-date: /home/samet/hallo/install/io_context/share/io_context/package.xml
+[0.575s] Invoked command in '/home/samet/hallo/build/io_context' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/opt/ros/humble /usr/bin/cmake --install /home/samet/hallo/build/io_context

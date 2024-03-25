@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000129] (-) JobUnselected: {'identifier': 'asio_cmake_module'}
+[0.000255] (-) JobUnselected: {'identifier': 'io_context'}
+[0.000291] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.000312] (-) JobUnselected: {'identifier': 'team_interfaces'}
+[0.000332] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.000530] (-) JobUnselected: {'identifier': 'vesc'}
+[0.000635] (-) JobUnselected: {'identifier': 'vesc_ackermann'}
+[0.000704] (-) JobUnselected: {'identifier': 'vesc_driver'}
+[0.000727] (-) JobUnselected: {'identifier': 'vesc_msgs'}
+[0.000757] (camera_run) JobQueued: {'identifier': 'camera_run', 'dependencies': OrderedDict()}
+[0.000796] (camera_run) JobStarted: {'identifier': 'camera_run'}
+[0.099224] (-) TimerEvent: {}
+[0.199516] (-) TimerEvent: {}
+[0.299810] (-) TimerEvent: {}
+[0.400118] (-) TimerEvent: {}
+[0.500405] (-) TimerEvent: {}
+[0.600715] (-) TimerEvent: {}
+[0.701012] (-) TimerEvent: {}
+[0.801320] (-) TimerEvent: {}
+[0.901634] (-) TimerEvent: {}
+[1.001937] (-) TimerEvent: {}
+[1.102211] (-) TimerEvent: {}
+[1.111715] (camera_run) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/camera_run', 'build', '--build-base', '/home/samet/hallo/build/camera_run/build', 'install', '--record', '/home/samet/hallo/build/camera_run/install.log', '--single-version-externally-managed'], 'cwd': '/home/samet/hallo/src/camera_run', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'samet', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/home/samet/hallo/install/io_context/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/samet', 'OLDPWD': '/home/samet', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '1930', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2084', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e7660bbefe04a6584044639065a90ae2', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/samet/hallo/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'samet', 'JOURNAL_STREAM': '8:34454', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'samet', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/samet/.local/bin:/opt/ros/humble/bin:/home/samet/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/samet-ThinkPad:@/tmp/.ICE-unix/2084,unix/samet-ThinkPad:/tmp/.ICE-unix/2084', 'INVOCATION_ID': '13b557a7227b40bd9249716a9380a0a3', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'TILIX_ID': 'fd42401c-8dad-457b-afbd-7d8734e57e73', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.954IH2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/camera_run:/home/samet/hallo/install/asio_cmake_module:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/samet/hallo/build/camera_run', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e7660bbefe04a6584044639065a90ae2', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/samet/hallo/build/camera_run/prefix_override:/home/samet/hallo/install/camera_run/lib/python3.10/site-packages:/home/samet/hallo/install/vesc_msgs/local/lib/python3.10/dist-packages:/home/samet/hallo/install/team_interfaces/local/lib/python3.10/dist-packages:/home/samet/hallo/install/camera_run/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module'}, 'shell': False}
+[1.202344] (-) TimerEvent: {}
+[1.302662] (-) TimerEvent: {}
+[1.394572] (camera_run) StdoutLine: {'line': b'running egg_info\n'}
+[1.402699] (-) TimerEvent: {}
+[1.412447] (camera_run) StdoutLine: {'line': b'writing ../../build/camera_run/camera_run.egg-info/PKG-INFO\n'}
+[1.412846] (camera_run) StdoutLine: {'line': b'writing dependency_links to ../../build/camera_run/camera_run.egg-info/dependency_links.txt\n'}
+[1.413102] (camera_run) StdoutLine: {'line': b'writing entry points to ../../build/camera_run/camera_run.egg-info/entry_points.txt\n'}
+[1.413275] (camera_run) StdoutLine: {'line': b'writing requirements to ../../build/camera_run/camera_run.egg-info/requires.txt\n'}
+[1.413428] (camera_run) StdoutLine: {'line': b'writing top-level names to ../../build/camera_run/camera_run.egg-info/top_level.txt\n'}
+[1.452416] (camera_run) StdoutLine: {'line': b"reading manifest file '../../build/camera_run/camera_run.egg-info/SOURCES.txt'\n"}
+[1.453440] (camera_run) StdoutLine: {'line': b"writing manifest file '../../build/camera_run/camera_run.egg-info/SOURCES.txt'\n"}
+[1.453625] (camera_run) StdoutLine: {'line': b'running build\n'}
+[1.453749] (camera_run) StdoutLine: {'line': b'running build_py\n'}
+[1.453895] (camera_run) StdoutLine: {'line': b'copying camera_run/intel_lane.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.454087] (camera_run) StdoutLine: {'line': b'copying camera_run/intel_pub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.454258] (camera_run) StdoutLine: {'line': b'copying camera_run/lane_recognition.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.454481] (camera_run) StdoutLine: {'line': b'copying camera_run/steering.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.454673] (camera_run) StdoutLine: {'line': b'copying camera_run/ackermann_to_vesc.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.454856] (camera_run) StdoutLine: {'line': b'copying camera_run/bot.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.455025] (camera_run) StdoutLine: {'line': b'copying camera_run/lane_follower.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.455181] (camera_run) StdoutLine: {'line': b'copying camera_run/LaneDetection_realsense.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.455374] (camera_run) StdoutLine: {'line': b'copying camera_run/slope_sub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.455602] (camera_run) StdoutLine: {'line': b'copying camera_run/slope_node.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.455781] (camera_run) StdoutLine: {'line': b'copying camera_run/intel_lane_sub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.455951] (camera_run) StdoutLine: {'line': b'copying camera_run/intel_sub.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.456179] (camera_run) StdoutLine: {'line': b'copying camera_run/LaneDetection.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.456448] (camera_run) StdoutLine: {'line': b'copying camera_run/__init__.py -> /home/samet/hallo/build/camera_run/build/lib/camera_run\n'}
+[1.456965] (camera_run) StdoutLine: {'line': b'running install\n'}
+[1.457258] (camera_run) StderrLine: {'line': b'/home/samet/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.457387] (camera_run) StderrLine: {'line': b'!!\n'}
+[1.457488] (camera_run) StderrLine: {'line': b'\n'}
+[1.457585] (camera_run) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.457690] (camera_run) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.457793] (camera_run) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.457894] (camera_run) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.458007] (camera_run) StderrLine: {'line': b'\n'}
+[1.458109] (camera_run) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.458213] (camera_run) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.458316] (camera_run) StderrLine: {'line': b'\n'}
+[1.458418] (camera_run) StderrLine: {'line': b'!!\n'}
+[1.458520] (camera_run) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.463907] (camera_run) StdoutLine: {'line': b'running install_lib\n'}
+[1.482949] (camera_run) StdoutLine: {'line': b'copying /home/samet/hallo/build/camera_run/build/lib/camera_run/LaneDetection_realsense.py -> /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run\n'}
+[1.483785] (camera_run) StdoutLine: {'line': b'byte-compiling /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run/LaneDetection_realsense.py to LaneDetection_realsense.cpython-310.pyc\n'}
+[1.487048] (camera_run) StdoutLine: {'line': b'running install_data\n'}
+[1.502777] (-) TimerEvent: {}
+[1.505005] (camera_run) StdoutLine: {'line': b'copying resource/camera_run -> /home/samet/hallo/install/camera_run/share/ament_index/resource_index/packages\n'}
+[1.505217] (camera_run) StdoutLine: {'line': b'copying package.xml -> /home/samet/hallo/install/camera_run/share/camera_run\n'}
+[1.505365] (camera_run) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.524276] (camera_run) StdoutLine: {'line': b"removing '/home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.524562] (camera_run) StdoutLine: {'line': b'Copying ../../build/camera_run/camera_run.egg-info to /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run-0.0.0-py3.10.egg-info\n'}
+[1.525479] (camera_run) StdoutLine: {'line': b'running install_scripts\n'}
+[1.602867] (-) TimerEvent: {}
+[1.699742] (camera_run) StdoutLine: {'line': b'Installing ackermann_to_vesc script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.699980] (camera_run) StdoutLine: {'line': b'Installing bot script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700144] (camera_run) StdoutLine: {'line': b'Installing detection script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700291] (camera_run) StdoutLine: {'line': b'Installing detection_node script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700428] (camera_run) StdoutLine: {'line': b'Installing follower script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700562] (camera_run) StdoutLine: {'line': b'Installing intel_lane script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700710] (camera_run) StdoutLine: {'line': b'Installing intel_lane_sub script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700848] (camera_run) StdoutLine: {'line': b'Installing intel_pub script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.700993] (camera_run) StdoutLine: {'line': b'Installing intel_sub script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.701137] (camera_run) StdoutLine: {'line': b'Installing slope_node script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.701281] (camera_run) StdoutLine: {'line': b'Installing slope_sub script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.701455] (camera_run) StdoutLine: {'line': b'Installing steering script to /home/samet/hallo/install/camera_run/lib/camera_run\n'}
+[1.701980] (camera_run) StdoutLine: {'line': b"writing list of installed files to '/home/samet/hallo/build/camera_run/install.log'\n"}
+[1.702931] (-) TimerEvent: {}
+[1.726217] (camera_run) CommandEnded: {'returncode': 0}
+[1.790046] (camera_run) JobEnded: {'identifier': 'camera_run', 'rc': 0}
+[1.790472] (-) EventReactorShutdown: {}

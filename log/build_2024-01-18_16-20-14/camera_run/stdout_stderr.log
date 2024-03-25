@@ -1,0 +1,59 @@
+running develop
+/home/samet/.local/lib/python3.10/site-packages/setuptools/command/develop.py:39: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  easy_install.initialize_options(self)
+/home/samet/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running egg_info
+creating camera_run.egg-info
+writing camera_run.egg-info/PKG-INFO
+writing dependency_links to camera_run.egg-info/dependency_links.txt
+writing entry points to camera_run.egg-info/entry_points.txt
+writing requirements to camera_run.egg-info/requires.txt
+writing top-level names to camera_run.egg-info/top_level.txt
+writing manifest file 'camera_run.egg-info/SOURCES.txt'
+reading manifest file 'camera_run.egg-info/SOURCES.txt'
+writing manifest file 'camera_run.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/samet/hallo/install/camera_run/lib/python3.10/site-packages/camera_run.egg-link (link to .)
+Installing ackermann_to_vesc script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing bot script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing detection script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing detection_node script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing follower script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing intel_lane script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing intel_lane_sub script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing intel_pub script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing intel_sub script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing slope_node script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing slope_sub script to /home/samet/hallo/install/camera_run/lib/camera_run
+Installing steering script to /home/samet/hallo/install/camera_run/lib/camera_run
+
+Installed /home/samet/hallo/build/camera_run
+running install_data
+creating /home/samet/hallo/install/camera_run/share/ament_index
+creating /home/samet/hallo/install/camera_run/share/ament_index/resource_index
+creating /home/samet/hallo/install/camera_run/share/ament_index/resource_index/packages
+copying resource/camera_run -> /home/samet/hallo/install/camera_run/share/ament_index/resource_index/packages
+copying package.xml -> /home/samet/hallo/install/camera_run/share/camera_run

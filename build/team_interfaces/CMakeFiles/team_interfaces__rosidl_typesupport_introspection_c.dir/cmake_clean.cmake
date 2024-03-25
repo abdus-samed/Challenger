@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/car__type_support.c.o"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/car__type_support.c.o.d"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/emergency__type_support.c.o"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/emergency__type_support.c.o.d"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/lane__type_support.c.o"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/lane__type_support.c.o.d"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/signs__type_support.c.o"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/signs__type_support.c.o.d"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/trafficlight__type_support.c.o"
+  "CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/team_interfaces/msg/detail/trafficlight__type_support.c.o.d"
+  "libteam_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libteam_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/car__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/car__type_support.c"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/emergency__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/emergency__type_support.c"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/lane__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/lane__type_support.c"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/signs__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/signs__type_support.c"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/trafficlight__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/team_interfaces/msg/detail/trafficlight__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/team_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

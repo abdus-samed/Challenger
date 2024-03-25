@@ -1,0 +1,10 @@
+{
+  "package_name": "team_interfaces",
+  "non_idl_tuples": [
+    "/home/samet/hallo/src/team_interfaces:msg/Car.msg",
+    "/home/samet/hallo/src/team_interfaces:msg/Lane.msg",
+    "/home/samet/hallo/src/team_interfaces:msg/Signs.msg",
+    "/home/samet/hallo/src/team_interfaces:msg/Trafficlight.msg",
+    "/home/samet/hallo/src/team_interfaces:msg/Emergency.msg"
+  ]
+}

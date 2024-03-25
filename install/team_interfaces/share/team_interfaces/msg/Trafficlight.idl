@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from team_interfaces/msg/Trafficlight.msg
+// generated code does not contain a copyright notice
+
+
+module team_interfaces {
+  module msg {
+    struct Trafficlight {
+      boolean traffic_light;
+    };
+  };
+};

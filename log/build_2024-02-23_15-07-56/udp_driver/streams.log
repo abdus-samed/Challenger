@@ -1,0 +1,78 @@
+[0.115s] Invoking command in '/home/samet/hallo/build/udp_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/udp_driver -- -j8 -l8
+[0.253s] [  4%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_socket.cpp.o[0m
+[0.262s] [  8%] [32mBuilding CXX object CMakeFiles/udp_driver.dir/src/udp_driver.cpp.o[0m
+[0.285s] [ 12%] [32mBuilding CXX object CMakeFiles/udp_sender_node_exe.dir/rclcpp_components/node_main_udp_sender_node_exe.cpp.o[0m
+[0.327s] [ 16%] [32mBuilding CXX object CMakeFiles/udp_receiver_node_exe.dir/rclcpp_components/node_main_udp_receiver_node_exe.cpp.o[0m
+[0.337s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[0.350s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[5.955s] [ 29%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[6.187s] [ 29%] Built target gtest_main
+[9.036s] [ 33%] [32m[1mLinking CXX executable udp_receiver_node_exe[0m
+[9.427s] [ 33%] Built target udp_receiver_node_exe
+[11.116s] [ 37%] [32m[1mLinking CXX shared library libudp_driver.so[0m
+[11.463s] [ 37%] Built target udp_driver
+[11.522s] [ 41%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_sender_node.cpp.o[0m
+[11.525s] [ 45%] [32mBuilding CXX object CMakeFiles/udp_driver_nodes.dir/src/udp_receiver_node.cpp.o[0m
+[12.193s] [ 50%] [32m[1mLinking CXX executable udp_sender_node_exe[0m
+[12.210s] [ 54%] [32m[1mLinking CXX static library libgtest.a[0m
+[12.359s] [ 54%] Built target gtest
+[12.481s] [ 54%] Built target udp_sender_node_exe
+[26.157s] [ 58%] [32m[1mLinking CXX shared library libudp_driver_nodes.so[0m
+[27.164s] [ 58%] Built target udp_driver_nodes
+[27.247s] [ 62%] [32mBuilding CXX object CMakeFiles/udp_bridge_node_exe.dir/src/udp_bridge_node.cpp.o[0m
+[27.248s] [ 66%] [32mBuilding CXX object CMakeFiles/test_udp_socket.dir/test/test_udp_socket.cpp.o[0m
+[27.254s] [ 70%] [32mBuilding CXX object CMakeFiles/test_udp_driver_nodes.dir/test/test_udp_driver_nodes.cpp.o[0m
+[27.262s] [ 75%] [32mBuilding CXX object CMakeFiles/test_udp_driver.dir/test/test_udp_driver.cpp.o[0m
+[27.265s] [ 79%] [32mBuilding CXX object CMakeFiles/test_udp_data.dir/test/test_udp_data.cpp.o[0m
+[34.862s] [ 83%] [32m[1mLinking CXX executable test_udp_socket[0m
+[34.949s] [ 87%] [32m[1mLinking CXX executable test_udp_data[0m
+[35.429s] [ 87%] Built target test_udp_socket
+[35.556s] [ 87%] Built target test_udp_data
+[37.717s] [ 91%] [32m[1mLinking CXX executable udp_bridge_node_exe[0m
+[38.225s] [ 91%] Built target udp_bridge_node_exe
+[38.429s] [ 95%] [32m[1mLinking CXX executable test_udp_driver[0m
+[38.766s] [ 95%] Built target test_udp_driver
+[45.372s] [100%] [32m[1mLinking CXX executable test_udp_driver_nodes[0m
+[46.254s] [100%] Built target test_udp_driver_nodes
+[46.269s] Invoked command in '/home/samet/hallo/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/samet/hallo/build/udp_driver -- -j8 -l8
+[46.356s] Invoking command in '/home/samet/hallo/build/udp_driver': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/udp_driver
+[46.365s] -- Install configuration: ""
+[46.366s] -- Installing: /home/samet/hallo/install/udp_driver/lib/udp_driver/udp_receiver_node_exe
+[46.367s] -- Set runtime path of "/home/samet/hallo/install/udp_driver/lib/udp_driver/udp_receiver_node_exe" to ""
+[46.367s] -- Installing: /home/samet/hallo/install/udp_driver/lib/udp_driver/udp_sender_node_exe
+[46.369s] -- Set runtime path of "/home/samet/hallo/install/udp_driver/lib/udp_driver/udp_sender_node_exe" to ""
+[46.369s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include
+[46.369s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include/udp_driver
+[46.369s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include/udp_driver/visibility_control.hpp
+[46.369s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include/udp_driver/udp_receiver_node.hpp
+[46.370s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include/udp_driver/udp_sender_node.hpp
+[46.370s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include/udp_driver/udp_socket.hpp
+[46.370s] -- Up-to-date: /home/samet/hallo/install/udp_driver/include/udp_driver/udp_driver.hpp
+[46.370s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/environment/library_path.sh
+[46.370s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/environment/library_path.dsv
+[46.370s] -- Installing: /home/samet/hallo/install/udp_driver/lib/libudp_driver.so
+[46.372s] -- Set runtime path of "/home/samet/hallo/install/udp_driver/lib/libudp_driver.so" to ""
+[46.372s] -- Installing: /home/samet/hallo/install/udp_driver/lib/libudp_driver_nodes.so
+[46.385s] -- Set runtime path of "/home/samet/hallo/install/udp_driver/lib/libudp_driver_nodes.so" to ""
+[46.385s] -- Installing: /home/samet/hallo/install/udp_driver/lib/udp_driver/udp_bridge_node_exe
+[46.386s] -- Set runtime path of "/home/samet/hallo/install/udp_driver/lib/udp_driver/udp_bridge_node_exe" to ""
+[46.387s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/ament_index/resource_index/package_run_dependencies/udp_driver
+[46.387s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/ament_index/resource_index/parent_prefix_path/udp_driver
+[46.387s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/environment/ament_prefix_path.sh
+[46.387s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/environment/ament_prefix_path.dsv
+[46.387s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/environment/path.sh
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/environment/path.dsv
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/local_setup.bash
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/local_setup.sh
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/local_setup.zsh
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/local_setup.dsv
+[46.388s] -- Installing: /home/samet/hallo/install/udp_driver/share/udp_driver/package.dsv
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/ament_index/resource_index/packages/udp_driver
+[46.388s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/ament_index/resource_index/rclcpp_components/udp_driver
+[46.389s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.389s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.389s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[46.389s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/cmake/udp_driverConfig.cmake
+[46.389s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/cmake/udp_driverConfig-version.cmake
+[46.389s] -- Up-to-date: /home/samet/hallo/install/udp_driver/share/udp_driver/package.xml
+[46.390s] Invoked command in '/home/samet/hallo/build/udp_driver' returned '0': CMAKE_PREFIX_PATH=/home/samet/hallo/install/io_context:/home/samet/hallo/install/asio_cmake_module:/home/samet/hallo/install/vesc:/home/samet/hallo/install/vesc_driver:/home/samet/hallo/install/vesc_ackermann:/home/samet/hallo/install/vesc_msgs:/home/samet/hallo/install/udp_driver:/home/samet/hallo/install/team_interfaces:/home/samet/hallo/install/serial_driver:/home/samet/hallo/install/camera_run:/opt/ros/humble LD_LIBRARY_PATH=/home/samet/hallo/install/io_context/lib:/home/samet/hallo/install/vesc_driver/lib:/home/samet/hallo/install/vesc_ackermann/lib:/home/samet/hallo/install/vesc_msgs/lib:/home/samet/hallo/install/udp_driver/lib:/home/samet/hallo/install/team_interfaces/lib:/home/samet/hallo/install/serial_driver/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/samet/hallo/build/udp_driver
